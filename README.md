@@ -13,7 +13,6 @@ $ go test
 Please file a bug report including a short program that triggers the error.
 https://go.dev/issue/new
 FAIL    go-19-panic [build failed]
-FAIL
 ```
 
 It worked on 1.18, and is reproducible in CI (see GitHub Action).
