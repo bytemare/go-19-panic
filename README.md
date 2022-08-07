@@ -1,7 +1,7 @@
 # go-19-panic
 This repo explores an internal Go compiler panic in 1.19 that did not occur in 1.18.
 
-The code is an extract from another project, and I simplified it to have a minimum of code left that reproduces the panic.
+The code is an extract from another project ([github.com/bytemare/crypto]()), and I simplified it to have a minimum of code left that reproduces the panic.
 
 `go test ./...` from the root produces the following output:
 
